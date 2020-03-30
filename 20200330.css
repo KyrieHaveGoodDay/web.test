@@ -1,0 +1,38 @@
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #cccccc;
+    
+}
+main>.item{
+    flex:none;
+    width: 300px; 
+    margin: 10px;
+    background-color: #ffcccc;
+}
+.test2{
+    display: flex;
+    background-color: #ffcccc;
+    width: 1590px;
+    height: 300px;
+}
+.box{
+    width: auto;
+    height: auto;
+    background-color: #cccccc;
+}
+.title{
+ text-align: center;
+}
+@media(max-width:1200px){
+    main>.item{
+        width:45%;
+    }
+    
+}
+@media(max-width:500px){
+    main>.item{
+        width: 90%;
+    }
+}
