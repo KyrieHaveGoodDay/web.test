@@ -14,22 +14,31 @@ main>.item{
 .test2{
     display: flex;
     background-color: #ffcccc;
-    width: 1590px;
+    width: auto;
     height: 300px;
+    border-style:solid;
 }
 .box{
+    display:flex;
     width: auto;
     height: auto;
     background-color: #cccccc;
+    border-style:solid;
 }
-.title{
- text-align: center;
-}
+
+
+
 @media(max-width:1200px){
     main>.item{
         width:45%;
     }
-    
+    main>.box{
+        width:45%;
+    }
+    main>.test2
+    {
+        width:45%;
+    }
 }
 @media(max-width:500px){
     main>.item{
